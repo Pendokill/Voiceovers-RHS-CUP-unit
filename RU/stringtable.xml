@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="UVO">
+	<Package name="Main">
+		<Key ID="STR_UVO_Main_UnitVoiceOvers">
+			<Russian>Unit Voice-overs</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingCategory_Core">
+			<Russian>Ядро</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingCategory_Compatibility">
+			<Russian>Совместимость</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingCategory_Debug">
+			<Russian>Debug</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingCategory_Initialization">
+			<Russian>Инициализация</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_EnablePlayers">
+			<Russian>Включить для игроков</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_EnablePlayers">
+			<Russian>Включение голосового сопровождения для бойца, управляемого Игроком</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_EnableCallouts">
+			<Russian>Включить выноски</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_EnableCallouts">
+			<Russian>Разрешать направленные Запросы от игроков</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_KillConfirmChanceAI">
+			<Russian>Подтверждения ИИ</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_KillConfirmChanceAI">
+			<Russian>ИИ подтвердит, когда враг убит или станет виден</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_KillConfirmChancePlayer">
+			<Russian>Интервал подтверждения убийства игрока</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_KillConfirmChancePlayer">
+			<Russian>Случайные игроки кричат, когда враг будет убит и станет виден</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_KillConfirmStealth">
+			<Russian>Подтверждение скрытного убийства</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_KillConfirmStealth">
+			<Russian>Позволяет получать устные подтверждения убийства от юнитов, ведущих себя скрытно</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_HearingDistance">
+			<Russian>Макс. расстояние слышимости</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_HearingDistance">
+			<Russian>Расстояние до затухания звука</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_VoicePitch">
+			<Russian>Громкость голоса</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_VoicePitch">
+			<Russian>Громкость звуковых сэмплов</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_DeathShoutVolume">
+			<Russian>Громкость предсмертного крика</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_DeathShoutVolume">
+			<Russian>Насколько громки предсмертные крики, когда погибает Юнит</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_DeathShoutDistance">
+			<Russian>Макс. расстояние слышимости предсмертного крика</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_DeathShoutDistance">
+			<Russian>Расстояние до затухания звука</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_CompatFrag">
+			<Russian>Совместимость с фрагами</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_CompatFrag">
+			<Russian>Добавить классы Записей, чтобы произносить правильные фразы</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_CompatSmoke">
+			<Russian>Совместимость с дымом</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_CompatSmoke">
+			<Russian>Добавить классы Записей, чтобы произносить правильные фразы</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_CompatFlash">
+			<Russian>Совместимость со вспышкой</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_CompatFlash">
+			<Russian>Добавить классы Записей, чтобы произносить правильные фразы</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_CompatIncendiary">
+			<Russian>Совместимость с зажигательными</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_CompatIncendiary">
+			<Russian>Добавить классы Записей, чтобы произносить правильные фразы</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_CompatExplosive">
+			<Russian>Совместимость с взрывчаткой</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_CompatExplosive">
+			<Russian>Добавить классы Записей, чтобы произносить правильные фразы</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_Debug">
+			<Russian>Debug mode</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_Debug">
+			<Russian>Enables extra debug info</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_SentencesEast">
+			<Russian>EAST - Болтовня по умолчанию</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_SentencesEast">
+			<Russian>Позволяет использовать голоса Arma по умолчанию для подразделений EAST</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_UVOEast">
+			<Russian>EAST - Включить UVO</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_UVOEast">
+			<Russian>Включает озвучивание за кадром для солдат EAST</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_SentencesGuer">
+			<Russian>GUER - Болтовня по умолчанию</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_SentencesGuer">
+			<Russian>Allows default Arma voices for GUER based units</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_UVOGuer">
+			<Russian>GUER - Включить UVO</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_UVOGuer">
+			<Russian>Включает озвучивание за кадром для солдат GUER</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_SentencesWest">
+			<Russian>WEST - Болтовня по умолчанию</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_SentencesWest">
+			<Russian>Позволяет использовать голоса Arma по умолчанию для подразделений WEST</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_UVOWest">
+			<Russian>WEST - Включить UVO</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_UVOWest">
+			<Russian>Включает озвучивание за кадром для солдат WEST</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_SentencesCustom">
+			<Russian>%1 - Болтовня по умолчанию</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_SentencesCustom">
+			<Russian>Позволяет использовать голоса Arma по умолчанию для Подразделений: %1</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingName_UVOCustom">
+			<Russian>%1 - Включить UVO</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_SettingInfo_UVOCustom">
+			<Russian>Включает озвучивание объектов за кадром для Подразделений: %1</Russian>
+		</Key>
+		<Key ID="STR_UVO_Main_Keybind_Callout">
+			<Russian>Направленный Выговор противника</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_UnitAmbientSFX">
+			<Russian>Unit Ambient SFX</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingCategory_Core">
+			<Russian>Ядро</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingCategory_Radio">
+			<Russian>Радиосвязь</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingCategory_Coughing">
+			<Russian>Кашель, разговоры</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingCategory_Sighing">
+			<Russian>Вздохи</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingCategory_Whistling">
+			<Russian>Насвистывания, разговоры</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_EnablePlayers">
+			<Russian>Включить для игроков</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_EnablePlayers">
+			<Russian>Включить БПЛА для юнитов, контролируемых игроком</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_EnableRadio">
+			<Russian>Включить звуки радио</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_EnableRadio">
+			<Russian>Включает звуки окружающего радио для всех групп</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_EnableRadioPlayers">
+			<Russian>Включить радио для игроков</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_EnableRadioPlayers">
+			<Russian>Воспроизводит звуки радио у игрока, независимо от основных настроек</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_MinIntRadio">
+			<Russian>Мин. интервал радиосвязи</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_MinIntRadio">
+			<Russian>Мин. время интервала в секундах</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_IntMultiplierRadio">
+			<Russian>Множитель интервалов радиосвязи</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_IntMultiplierRadio">
+			<Russian>minInt + random (minInt * multiplier)</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_ChanceRadio">
+			<Russian>Интервал Радио</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_ChanceRadio">
+			<Russian>Случайный звук будет воспроизводиться по истечении случайного интервала</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_RadioOperator">
+			<Russian>Радиооператор</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_RadioOperator">
+			<Russian>Укажите, на каких устройствах будут воспроизводиться радиозвуки</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_Setting_RadioOperator_0">
+			<Russian>Лидер</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_Setting_RadioOperator_1">
+			<Russian>Случайные</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_Setting_RadioOperator_2">
+			<Russian>Установки с переменной "UAS_radioOperator"</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_DistanceRadio">
+			<Russian>Расстояние слышимости радио</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_DistanceRadio">
+			<Russian>Расстояние затухания звука</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_DistanceRadioInVehicle">
+			<Russian>Расстояние слышимости в транспортном средстве</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_DistanceRadioInVehicle">
+			<Russian>Расстояние затухания звука при нахождении внутри транспортного средства</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_EnableCoughing">
+			<Russian>Включить кашель</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_EnableCoughing">
+			<Russian>Включает звуки кашля (чаще от раненых юнитов)</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_MinIntCough">
+			<Russian>Мин. интервал кашля</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_MinIntCough">
+			<Russian>Минимальное время случайного интервала в секундах</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_IntMultiplierCough">
+			<Russian>Множитель интервала кашля</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_IntMultiplierCough">
+			<Russian>minInt + random (minInt * multiplier)</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_ChanceCough">
+			<Russian>Интервал кашля</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_ChanceCough">
+			<Russian>Случайный звук будет воспроизводиться по истечении случайного интервала (Интервал увеличивается с уроном)</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_DistanceCough">
+			<Russian>Расстояние слышемости при кашле</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_DistanceCough">
+			<Russian>Расстояние затухания звука</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_EnableSighing">
+			<Russian>Включить вздохи</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_EnableSighing">
+			<Russian>Позволяет окружающим вздохам/дыханию sfx</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_MinIntSigh">
+			<Russian>Мин. интервал</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_MinIntSigh">
+			<Russian>Минимальное время случайного интервала в секундах</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_IntMultiplierSigh">
+			<Russian>Множитель интервала вздохов</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_IntMultiplierSigh">
+			<Russian>minInt + random (minInt * multiplier)</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_ChanceSigh">
+			<Russian>Интервал вздохов</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_ChanceSigh">
+			<Russian>Случайный звук будет воспроизводиться по истечении случайного интервала</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_DistanceSigh">
+			<Russian>Расстояние слышимости вздоха</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_DistanceSigh">
+			<Russian>Расстояние затухания звука</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_EnableWhistling">
+			<Russian>Включить свист</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_EnableWhistling">
+			<Russian>Включает окружающий свист (не срабатывает, если отряд находится в бою или повреждён)</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_MinIntWhistle">
+			<Russian>Мин. интервал свиста</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_MinIntWhistle">
+			<Russian>Минимальное время случайного интервала в секундах</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_IntMultiplierWhistle">
+			<Russian>Множитель интервала свиста</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_IntMultiplierWhistle">
+			<Russian>minInt + random (minInt * multiplier)</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_ChanceWhistle">
+			<Russian>Интервал свиста</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_ChanceWhistle">
+			<Russian>Случайный звук будет воспроизводиться по истечении случайного интервала</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingName_DistanceWhistle">
+			<Russian>Расстояние слышимости свиста</Russian>
+		</Key>
+		<Key ID="STR_UVO_UAS_SettingInfo_DistanceWhistle">
+			<Russian>Расстояние затухания звука</Russian>
+		</Key>
+	</Package>
+</Project>

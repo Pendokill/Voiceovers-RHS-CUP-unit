@@ -1,0 +1,25 @@
+
+Cover - прикрытие
+fired
+  explosive - взрывчатка
+  flash - ослепительная граната
+  frag - бросок гранаты
+  incendiary - зажигательная
+  rocketSuppression - рпг
+  smoke - дымовая
+  spotNade - прилёт гранаты
+hit
+  bulletSuppression - свист пуль
+  friendlyFire - стрельба по своим
+  pain - ранение, боль
+killed
+  allyDown - несём потери
+  targDown - враг убит
+reload
+  ammoLow - мало бк
+  reloading - перезагрузка
+sounds
+  cough - кашель
+  radio - радиопереговоры
+  sigh - Вздохи
+  whistle - свист
